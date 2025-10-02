@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .hover-box {
+            position: relative;
+            display: inline-block;
+            padding: 10px;
+            background: lightblue;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+    
+        .tooltip {
+            visibility: hidden;
+            opacity: 0;
+            width: max-content;
+            background: black;
+            color: #fff;
+            text-align: center;
+            border-radius: 6px;
+            padding: 5px;
+            position: absolute;
+            bottom: 125%;
+            /* box er upore show korbe */
+            left: 50%;
+            transform: translateX(-50%);
+            transition: opacity 0.3s;
+        }
+    
+        .hover-box:hover .tooltip {
+            visibility: visible;
+            opacity: 1;
+        }
+    </style>
+</head>
+<body>
+    <div class="hover-box">
+        Hover me
+        <span class="tooltip">This is the hidden text!</span>
+    </div>
+
+</body>
+</html>
