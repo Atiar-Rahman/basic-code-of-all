@@ -1,0 +1,16 @@
+employee_id,name,age,gender,city,salary,experience,join_date,department,performance_score
+101,Rahim,25,Male,dhaka,30000,1,2021-01-10,IT,4.5
+102,Karim,30,male,Dhaka,40000,5,2020/05/20,HR,4.0
+103,Ayesha,,Female,Chittagong,50000,7,2019-07-15,IT,3.8
+104,John,35,M,dhaka,60000,10,2018-03-01,Finance,
+105,Maria,28,F,Khulna,55000,6,2019-11-11,HR,4.2
+105,Maria,28,F,Khulna,55000,6,2019-11-11,HR,4.2
+106,Sohan,45,Male,Rajshahi,200000,20,2010-06-01,Management,4.9
+107,Nila,23,female,Sylhet,28000,1,2022-02-02,IT,3.5
+108,Arif,120,Male,Dhaka,32000,2,2023-01-01,IT,2.0
+109,Tania,29,Female,dhaka,45000,4,2020-08-08,Finance,3.9
+110,Hasan,31,Male,Barisal,47000,5,2019-09-09,IT,4.1
+111,Rupa,,M,barisal,1000000,15,2005-01-01,Management,
+112,Imran,27,Male,Sylhet,38000,3,2021-12-12,HR,3.6
+113,Lima,26,Female,Khulna,42000,4,2022-07-07,HR,3.7
+114,Sadia,24,female,Dhaka,39000,2,2023-03-03,IT,3.8
